@@ -1,0 +1,87 @@
+/* Add your styles here */
+/* image inside summary: landing page */
+img.align-left{
+    float:left;
+    margin-right:20px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    }
+
+
+/* Description box format of 1st column (left side) of each plots page */
+#summary, #temp_visual, #humid_visual, 
+#cloudy_visual, #wind_visual {
+height:55%;
+width: 55%;
+border: solid 5px #3182bd;
+background-color:lightblue;
+text-align: left;
+padding: 10px;
+margin-left: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+}
+
+
+/* Give the body tag the specified background color #f1f1f1 */
+body {
+    background-color: #f1f1f1
+}
+
+/* add font sizes of 80px and 30px for the h1 and h3 tags */
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+/* Give our '.navbar' class '10px' of 'padding' and a 'background' color of '#5191fd'*/
+.navbar {
+    padding: 10px;
+    background-color: #AED6F1;
+}
+
+/* Make our '.navbar li' elements 'display' as 'inline-block' so we can have multiple on the same line.
+ */
+ .navbar li {
+     padding: 20px;
+     margin-right: 10px;
+     margin-left: 10px;
+     cursor: pointer; /* the whole element will be bigger*/
+     background: #f1f1f1;
+     border-radius: 3px;
+     display: inline-block; /* the list will be next to each other horizontally  */
+ }
+
+
+/* Style the .header class, 
+giving it a height of 200px, 
+a background color of #cdcdcd, 
+and some top padding of 20px */
+.hearer {
+    height: 200px;
+    background-color: #f1f1f1;
+    padding-top: 20px;
+}
+
+/* Center our h1 tag inside our .header with .header h1, 
+giving it a little padding of 60px, 
+setting its margin to 0,
+setting the color to #000,
+and setting the text-align to center */
+.header h1 {
+    padding: 60px;
+    margin: 0; 
+    color: #000000;
+    text-align: left;
+}
+
+/* Giving the .post class margin of 50px 100px 0px */
+.post {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
